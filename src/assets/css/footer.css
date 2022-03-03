@@ -1,0 +1,28 @@
+/* Font Archivo Narrow */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+footer{
+    background-color: #090A1F;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_footer{
+    height: 100px;
+}
+
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_info span{
+    color: #FFFFFF;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+}

@@ -1,0 +1,22 @@
+.header{
+    background-color: #090A1F;
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_header{
+    height: 100px;
+}
+
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.icone_nav{
+    height: 50px;
+}

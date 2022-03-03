@@ -1,0 +1,117 @@
+/* Font Archivo Narrow */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+main{
+    background-color: #090A1F;
+}
+
+.container_consultas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.consulta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 450px;
+    width: 800px;
+    border-radius: 50px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.consulta-verde{
+    background-color: rgba(70, 255, 60);
+}
+
+.consulta-amarela{
+    background-color: rgba(210, 210, 0);
+}
+
+.consulta-vermelha{
+    background-color: rgba(255, 30, 60);
+}
+
+.consulta h1{
+    color: black;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+.div_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2,
+.descricao h2{
+    color: black;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.info span,
+.descricao p{
+    color: black;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.situacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info button{
+    width: 170px;
+    height: 30px;
+    border-radius: 30px 110px 30px 110px;
+    
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+
+    border: none;
+    background-color: #313588;
+}
+
+.info button:hover{
+    animation-delay: 2000ms;
+    background-color: #292a55;
+    color: rgb(223, 223, 223);
+    cursor: pointer;
+}
+
+.descricao{
+    width: 700px;
+}
+
+.descricao p{
+    text-align: justify;
+}

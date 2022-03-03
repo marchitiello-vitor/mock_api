@@ -1,0 +1,102 @@
+/* Reset da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Logo Header */
+.header-login{
+    display: flex;
+    justify-content: right;
+    
+    background-color: #090A1F;
+}
+
+.logo{
+    height: 100px;
+    margin-right: 120px;
+}
+
+/* Foto e caixa de login */
+.container_login{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 621px;
+    
+    background-color: #090A1F;
+}
+
+.form_h1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: space-between;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.form_h1 h1{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+}
+
+.formulario_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 360px;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 165px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo label{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.campo input{
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+
+    border: none;
+    border-radius: 30px 110px 30px 110px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.formulario_login button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px 110px 30px 110px;
+    
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+
+    border: none;
+    background-color: #FC4E57;
+}
+
+.formulario_login button:hover{
+    background-color: #fc6b73;
+    cursor: pointer;
+}

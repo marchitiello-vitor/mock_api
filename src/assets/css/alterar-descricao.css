@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+.main-consultas{
+    background-color: #090A1F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Titulo */
+h1{
+    color: black;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+.form-descricao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 80%);
+
+    width: 600px;
+    border-radius: 50px;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.campo-descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.campo-consulta label,
+.campo-descricao label{
+    color: black;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;  
+}
+
+.campo-descricao textarea{
+    width: 450px;
+    height: 60px;
+    padding: 10px;
+    text-align: justify;
+    resize: none
+}
+
+.campo-consulta input{
+    padding-left: 10px;
+}
+
+.campo-consulta input,
+.campo-descricao textarea{
+    border-radius: 10px;
+    border: none;
+}
+/* botão */
+form button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px 110px 30px 110px;
+    margin-bottom: 50px;
+    
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+
+    border: none;
+    background-color: #313588;
+}
+
+form button:hover{
+    animation-delay: 2000ms;
+    background-color: #292a55;
+    color: rgb(223, 223, 223);
+    cursor: pointer;
+}
